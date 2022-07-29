@@ -13,19 +13,26 @@
 <body>
   <nav>
     <div class="container">
-    <i class="fa fa-toggle-off"></i>
+       <!--darkButton-->
+       <button class="light-mode-button"
+                arial-label="Toggle Light Mode"
+                >
+         <span></span>
+         <span></span>
+       </button>
     <div class="logo">
     <a href="index.html"><h1 class="font">Q<span>A</span></h1></a>
     </div>
    <input class="Search" type="text" placeholder="Search..">
    </div>
      </nav>
+     <button class="btn">Up</button>
    <!--second part--> 
   <div class="container">
     <div class="box">
         <h2>Add Agents:-</h2>
           <form>
-            <input type="text" id="lname" name="lname" placeholder="Add..">
+             <input class="addAgent" type="text" id="lname" name="lname" placeholder="Add..">
             <input type="submit" value="Submit">
           </form>
        <!--second part-1-->
@@ -35,12 +42,12 @@
         <!--third part-2-->
   <ul>
     <!--Li number 1 -->
-    <li class="containerLi">
-      <!-- felds-->
-        <input type="text" id="lname" name="lname" placeholder="Name..">
+    <li class="containerLi"><!-- filds-->
+      <input type="text" id="lname" name="lname" placeholder="Name..">
         <input type="text" id="lname" name="lname" placeholder="tmp..">
       <!--dropdowns-->
     <select name="teamleaders" id="TL">
+      <option value="0">Team Leader</option>
        <option value="1">N.Mahmoud</option>
        <option value="2">Omar.Waked</option>
        <option value="3">N.Boghdady</option>
@@ -68,6 +75,7 @@
         <input type="text" id="lname" name="lname" placeholder="tmp..">
       <!--dropdowns-->
     <select name="teamleaders" id="TL">
+       <option value="0">Team Leader</option>
        <option value="1">N.Mahmoud</option>
        <option value="2">Omar.Waked</option>
        <option value="3">N.Boghdady</option>
@@ -94,6 +102,7 @@
         <input type="text" id="lname" name="lname" placeholder="tmp..">
       <!--dropdowns-->
     <select name="teamleaders" id="TL">
+       <option value="0">Team Leader</option>
        <option value="1">N.Mahmoud</option>
        <option value="2">Omar.Waked</option>
        <option value="3">N.Boghdady</option>
@@ -118,6 +127,6 @@
   </div>
  </body>
 
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 
 </body>
